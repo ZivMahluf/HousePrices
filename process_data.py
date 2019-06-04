@@ -75,3 +75,4 @@ class ZivsProcessor:
     def correct_extreme_values(data, feature, min_value, max_value, correcting_method="delete"):
         indices = data[feature][(data[feature] > max_value) | (data[feature] < min_value)].index
         ZivsProcessor.correcter[correcting_method](data, feature, indices)
+        return data

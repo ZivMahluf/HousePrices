@@ -43,15 +43,21 @@ class ZivsVisualizer:
         plt.savefig('images/pair_plot.png', format='png')
 
     @staticmethod
-    def print_and_return_cols_with_null(data):
+    def print_and_return_cols_with_null(data, amount_printed=20):
         '''
-        Prints the columns that has null values in them (with the amount of values), and return the
-        column names
+        Prints the PERCENTAGE of missing values for the amount_printed columns with the highest
+        missing ratio
+        :param data: the data
+        :param amount_printed: (default=20) amount of columns to print.
         :return: list of column names
         '''
-        null_data = data.isnull().sum()
+        all_data_na = (data.isnull().sum() / len(data)) * 100
+        all_data_na = all_data_na.drop(all_data_na[all_data_na == 0].index).sort_values(
+            ascending=False)[:30]
+        missing_data = pd.DataFrame({'Missing Ratio': all_data_na})
+        print(missing_data.head(amount_printed))
 
-        print('Data columns with null values:\n', null_data)
+        null_data = data.isnull().sum()
         return null_data[null_data != 0].index.tolist()
 
     @staticmethod
@@ -91,7 +97,7 @@ class ZivsVisualizer:
             ax.set_xlabel(feature)
             ax.set_title(feature + ' by ' + y_axis_title)
             ax.legend()
-            plt.savefig('images/' + feature + '.png', format='png')
+            plt.savefig('corr_feature_images/' + feature + '.png', format='png')
             plt.cla()
 
     @staticmethod
