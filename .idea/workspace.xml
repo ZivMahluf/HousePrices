@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97f28ec1-9ca5-4957-8514-bd61f219675b" name="Default" comment="" />
+    <list default="true" id="97f28ec1-9ca5-4957-8514-bd61f219675b" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/house_prices.py" afterPath="$PROJECT_DIR$/house_prices.py" />
+      <change beforePath="$PROJECT_DIR$/process_data.py" afterPath="$PROJECT_DIR$/process_data.py" />
+      <change beforePath="$PROJECT_DIR$/visualize_data.py" afterPath="$PROJECT_DIR$/visualize_data.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +20,8 @@
       <file leaf-file-name="house_prices.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/house_prices.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+            <state relative-caret-position="340">
+              <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -23,15 +29,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pairplot.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/pairplot.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="heatmap.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/heatmap.png">
+      <file leaf-file-name="TotRmsAbvGrd.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/TotRmsAbvGrd.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
@@ -40,28 +39,50 @@
       <file leaf-file-name="visualize_data.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/visualize_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="36" column="29" lean-forward="true" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+            <state relative-caret-position="180">
+              <caret line="45" column="46" lean-forward="false" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
               <folding>
                 <element signature="e#172#826#0" expanded="false" />
-                <element signature="e#1274#2023#0" expanded="false" />
-                <element signature="e#1274#1434#1" expanded="false" />
-                <element signature="e#1632#2023#0" expanded="false" />
-                <element signature="e#2120#2788#0" expanded="false" />
-                <element signature="e#2120#2387#1" expanded="false" />
-                <element signature="e#2474#2788#0" expanded="false" />
-                <element signature="e#2884#5201#0" expanded="false" />
-                <element signature="e#2884#3263#1" expanded="false" />
-                <element signature="e#3322#4136#0" expanded="false" />
-                <element signature="e#3322#3584#1" expanded="false" />
-                <element signature="e#3765#4136#0" expanded="false" />
-                <element signature="e#4281#4897#0" expanded="false" />
-                <element signature="e#4386#4897#0" expanded="false" />
-                <element signature="e#4438#4897#0" expanded="false" />
-                <element signature="e#5312#6550#0" expanded="false" />
-                <element signature="e#5312#5991#1" expanded="false" />
-                <element signature="e#6127#6550#0" expanded="false" />
-                <element signature="e#6210#6550#0" expanded="false" />
+                <element signature="e#889#1196#0" expanded="false" />
+                <element signature="e#889#1073#1" expanded="false" />
+                <element signature="e#1271#1603#0" expanded="false" />
+                <element signature="e#1681#2430#0" expanded="false" />
+                <element signature="e#1681#1841#1" expanded="false" />
+                <element signature="e#2039#2430#0" expanded="false" />
+                <element signature="e#2527#3195#0" expanded="false" />
+                <element signature="e#2527#2794#1" expanded="false" />
+                <element signature="e#2881#3195#0" expanded="false" />
+                <element signature="e#3291#5608#0" expanded="false" />
+                <element signature="e#3291#3670#1" expanded="false" />
+                <element signature="e#3729#4543#0" expanded="false" />
+                <element signature="e#3729#3991#1" expanded="false" />
+                <element signature="e#4172#4543#0" expanded="false" />
+                <element signature="e#4688#5304#0" expanded="false" />
+                <element signature="e#4793#5304#0" expanded="false" />
+                <element signature="e#4845#5304#0" expanded="false" />
+                <element signature="e#5719#6957#0" expanded="false" />
+                <element signature="e#5719#6398#1" expanded="false" />
+                <element signature="e#6534#6957#0" expanded="false" />
+                <element signature="e#6617#6957#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="process_data.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/process_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="77">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding>
+                <element signature="e#333#842#0" expanded="false" />
+                <element signature="e#333#574#1" expanded="false" />
+                <element signature="e#606#713#0" expanded="false" />
+                <element signature="e#934#1319#1" expanded="false" />
+                <element signature="e#1686#2389#0" expanded="false" />
+                <element signature="e#1686#2088#1" expanded="false" />
+                <element signature="e#2306#2369#0" expanded="false" />
+                <element signature="e#2478#2671#1" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -76,12 +97,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/data/house_prices.py" />
-        <option value="$PROJECT_DIR$/process_data.py" />
         <option value="$PROJECT_DIR$/visualize_data.py" />
+        <option value="$PROJECT_DIR$/process_data.py" />
         <option value="$PROJECT_DIR$/house_prices.py" />
       </list>
     </option>
@@ -92,6 +116,7 @@
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -114,11 +139,6 @@
             <path>
               <item name="HousePrices" type="b2602c69:ProjectViewProjectNode" />
               <item name="HousePrices" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HousePrices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HousePrices" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -190,14 +210,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17633928" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17633928" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.84210527" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39967105" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -216,7 +235,19 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="14" />
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/visualize_data.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/house_prices.py</url>
+          <line>57</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="20" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -241,118 +272,53 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>data.corr()['SalePrice'][data.corr()['SalePrice'] &gt;= 0.2].index</expression-string>
+        <expression-string>new_data['TotalBsmtSF'].isnull().any()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>data.corr()['SalePrice'][data.corr()['SalePrice'] &gt;= 0.2].values</expression-string>
+        <expression-string>data['2ndFlrSF'].isnull().any()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>data.corr()['SalePrice'][data.corr()['SalePrice'] &gt;= 0.2]</expression-string>
+        <expression-string>new_data['2ndFlrSF'].isnull().any()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>data.corr()['SalePrice']</expression-string>
+        <expression-string>new_data['1stFlrSF'].isnull().any()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>[col for col in data.columns if data.corr()['SalePrice']]</expression-string>
+        <expression-string>new_data['1stFlrSF'].fillna(0)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>len(data.columns)</expression-string>
+        <expression-string>new_data['1stFlrSF'].isnull().values == True</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>data['LotFrontage']</expression-string>
+        <expression-string>new_data['1stFlrSF'].isnull()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>data[LotFrontage]</expression-string>
+        <expression-string>new_data['TotalBsmtSF'].isnull()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>data[feature].values</expression-string>
+        <expression-string>new_data['TotalBsmtSF'].fillna(0) == new_data['TotalBsmtSF']</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/images/Exterior1st_Code.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/Exterior2nd.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/ExterQual.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/ExterQual_Code.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/Fence.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/Fence_Code.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/FireplaceQu.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/FullBath.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/Functional_Code.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/Functional.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/FullBath_Code.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/Foundation_Code.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/Foundation.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/Fireplaces_Code.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -364,21 +330,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/images/FireplaceQu_Code.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/GarageArea.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/GarageCars.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/GarageCars_Code.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -408,11 +359,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/GarageYrBlt.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/GarageFinish_Code.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -424,11 +370,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/images/GarageCond_Code.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/GrLivArea.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -528,43 +469,148 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/OverallCond_Code.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/GrLivArea.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/GarageArea.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/YearBuilt.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/images/pairplot.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/GarageYrBlt.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/YearRemodAdd.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/OverallQual.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/OverallQual_Code.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/GarageCars_Code.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/GarageCars.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/FullBath_Code.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/FullBath.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/TotRmsAbvGrd_Code.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/process_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#333#842#0" expanded="false" />
+            <element signature="e#333#574#1" expanded="false" />
+            <element signature="e#606#713#0" expanded="false" />
+            <element signature="e#934#1319#1" expanded="false" />
+            <element signature="e#1686#2389#0" expanded="false" />
+            <element signature="e#1686#2088#1" expanded="false" />
+            <element signature="e#2306#2369#0" expanded="false" />
+            <element signature="e#2478#2671#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/TotRmsAbvGrd.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/visualize_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="36" column="29" lean-forward="true" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+        <state relative-caret-position="180">
+          <caret line="45" column="46" lean-forward="false" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
           <folding>
             <element signature="e#172#826#0" expanded="false" />
-            <element signature="e#1274#2023#0" expanded="false" />
-            <element signature="e#1274#1434#1" expanded="false" />
-            <element signature="e#1632#2023#0" expanded="false" />
-            <element signature="e#2120#2788#0" expanded="false" />
-            <element signature="e#2120#2387#1" expanded="false" />
-            <element signature="e#2474#2788#0" expanded="false" />
-            <element signature="e#2884#5201#0" expanded="false" />
-            <element signature="e#2884#3263#1" expanded="false" />
-            <element signature="e#3322#4136#0" expanded="false" />
-            <element signature="e#3322#3584#1" expanded="false" />
-            <element signature="e#3765#4136#0" expanded="false" />
-            <element signature="e#4281#4897#0" expanded="false" />
-            <element signature="e#4386#4897#0" expanded="false" />
-            <element signature="e#4438#4897#0" expanded="false" />
-            <element signature="e#5312#6550#0" expanded="false" />
-            <element signature="e#5312#5991#1" expanded="false" />
-            <element signature="e#6127#6550#0" expanded="false" />
-            <element signature="e#6210#6550#0" expanded="false" />
+            <element signature="e#889#1196#0" expanded="false" />
+            <element signature="e#889#1073#1" expanded="false" />
+            <element signature="e#1271#1603#0" expanded="false" />
+            <element signature="e#1681#2430#0" expanded="false" />
+            <element signature="e#1681#1841#1" expanded="false" />
+            <element signature="e#2039#2430#0" expanded="false" />
+            <element signature="e#2527#3195#0" expanded="false" />
+            <element signature="e#2527#2794#1" expanded="false" />
+            <element signature="e#2881#3195#0" expanded="false" />
+            <element signature="e#3291#5608#0" expanded="false" />
+            <element signature="e#3291#3670#1" expanded="false" />
+            <element signature="e#3729#4543#0" expanded="false" />
+            <element signature="e#3729#3991#1" expanded="false" />
+            <element signature="e#4172#4543#0" expanded="false" />
+            <element signature="e#4688#5304#0" expanded="false" />
+            <element signature="e#4793#5304#0" expanded="false" />
+            <element signature="e#4845#5304#0" expanded="false" />
+            <element signature="e#5719#6957#0" expanded="false" />
+            <element signature="e#5719#6398#1" expanded="false" />
+            <element signature="e#6534#6957#0" expanded="false" />
+            <element signature="e#6617#6957#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/TotalBsmtSF.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/1stFlrSF.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/2ndFlrSF.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/house_prices.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+        <state relative-caret-position="340">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>

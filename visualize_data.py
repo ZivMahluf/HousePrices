@@ -43,6 +43,18 @@ class ZivsVisualizer:
         plt.savefig('images/pair_plot.png', format='png')
 
     @staticmethod
+    def print_and_return_cols_with_null(data):
+        '''
+        Prints the columns that has null values in them (with the amount of values), and return the
+        column names
+        :return: list of column names
+        '''
+        null_data = data.isnull().sum()
+
+        print('Data columns with null values:\n', null_data)
+        return null_data[null_data != 0].index.tolist()
+
+    @staticmethod
     def save_classification_graphs(data, labels):
         '''
         Save scatter graphs for all features, where each point in the graph is marked by the label

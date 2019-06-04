@@ -5,6 +5,8 @@ class ZivsProcessor:
     fill = {"median": lambda data: data.median(),
             "mode": lambda data: data.mode()[0]}
 
+    correcter = {'delete': lambda data, feature, indices: data.drop(index=indices, inplace=True)}
+
     @staticmethod
     def categorize_features_by_values_amount(data, threshold=2):
         '''
@@ -19,26 +21,20 @@ class ZivsProcessor:
                               prefix_sep='$')
 
     @staticmethod
-    def print_and_return_cols_with_null(data):
-        '''
-        Prints the columns that has null values in them (with the amount of values), and return the
-        column names
-        :return:
-        '''
-        null_data = data.isnull().sum()
-        print('Data columns with null values:\n', null_data)
-        return null_data[null_data != 0].index.tolist()
-
-    @staticmethod
     def complete_missing_data(data, feature, filling="median"):
         '''
-        Complete the missing values in the data by a certain method (median, mode, etc.)
+        Complete the missing values in the data by a certain method (median, mode, etc.), or a
+        specific value
         :param data: data
         :param feature: feature to be completed
-        :param filling: way of completing -- possible options are listed in class fill dictionary
+        :param filling: way of completing -- possible options are listed in class fill dictionary,
+        can be used as a value
         :return: None, data is changed globally
         '''
-        data[feature].fillna(ZivsProcessor.fill[filling](data[feature]), inplace=True)
+        if filling in ZivsProcessor.fill.keys():
+            data[feature].fillna(ZivsProcessor.fill[filling](data[feature]), inplace=True)
+        else:
+            data[feature].fillna(int(filling), inplace=True)
 
     @staticmethod
     def convert_rare_values(data, feature, threshold=10, new_value='Misc',
@@ -74,3 +70,8 @@ class ZivsProcessor:
             data[feature + '_Code'] = label.fit_transform(data[feature].fillna('0').astype(str))
             data = data.drop(columns=[feature])
         return data
+
+    @staticmethod
+    def correct_extreme_values(data, feature, min_value, max_value, correcting_method="delete"):
+        indices = data[feature][(data[feature] > max_value) | (data[feature] < min_value)].index
+        ZivsProcessor.correcter[correcting_method](data, feature, indices)
